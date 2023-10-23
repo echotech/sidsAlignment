@@ -1645,7 +1645,6 @@ div.team-box
 .testimonials-list li
 {
 	float: left;
-	width: 1050px;
 	text-align: center;
 }
 .testimonials-list .hexagon div::before
@@ -1921,7 +1920,7 @@ body .type-small .testimonials-list .ornament.empty-circle::before
 /* --- backgrounds --- */
 .background-1
 {
-	background-image: url('../images/samples/960x680/image_01.jpg');
+	background-image: url('../images/samples/960x680/vehicles.png');
 	background-size: cover;
 	background-position: center;
 }
@@ -2870,12 +2869,12 @@ li.template-bullet:before
 /* --- accordion --- */
 .accordion li
 {
-	border: 1px solid #E2E6E7;
+	
 	border-top: none;
 }
 .accordion li:first-child
 {
-	border-top: 1px solid #E2E6E7;
+	
 }
 .accordion .ui-accordion-content
 {
