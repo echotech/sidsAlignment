@@ -291,7 +291,7 @@
 							<li class="template-bullet">Cars</li>
 							<li class="template-bullet">Trucks</li>
 							<li class="template-bullet">Semis</li>
-							<li class="template-bullet">Lowered Vehicles</li>
+							<li class="template-bullet">Lifted and Lowered Vehicles</li>
 							<li class="template-bullet">RVs</li>
 							<li class="template-bullet">Trailers</li>
 							<li class="template-bullet">UTVs</li>
@@ -320,5 +320,23 @@
 		<div class="background-overlay"></div>
 		<!--js-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			document.addEventListener("DOMContentLoaded", function() {
+    var menuSwitch = document.querySelector('.mobile-menu-switch');
+    var mobileMenu = document.querySelector('.mobile-menu');
+
+    menuSwitch.addEventListener('click', function() {
+        // Check if the menu is currently displayed
+        if (mobileMenu.style.display === 'block') {
+            // Menu is open, we need to close it
+            mobileMenu.style.display = 'none';
+        } else {
+            // Menu is closed, we need to open it
+            mobileMenu.style.display = 'block';
+        }
+    });
+});
+
+		</script>
 	</body>
 </html>
